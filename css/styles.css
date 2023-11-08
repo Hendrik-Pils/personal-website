@@ -1,0 +1,20 @@
+ * {
+    box-sizing: border-box;
+ }
+
+ h1 {
+    color: blueviolet;
+ }
+
+nav > ul {
+    
+    display: flex;
+}
+
+ nav > ul > li {
+    list-style: none;
+ }
+
+#main > section {
+    display: flex;
+}
