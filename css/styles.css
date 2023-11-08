@@ -2,9 +2,13 @@
     box-sizing: border-box;
  }
 
- img {
+ figure {
    max-width: 100%;
-   height: auto;
+   width: 200px;
+ }
+
+ figcaption {
+  text-align: center;
  }
 
  nav {
@@ -22,12 +26,13 @@
     color: #EBB18F;
  }
 
- .navigation__menu {    
+ .navigation__menu { 
     display: flex;
-    justify-content: space-between;
  }
 
  nav > ul > li {
+    align-self: center;
+    padding: 20px;
     list-style: none;
  }
 
@@ -42,12 +47,20 @@
    color: black;
  }
 
- main {
-   border-top: 0.1rem solid #4C220A;    
+ main {   
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between; 
+   align-content: space-around;   
  } 
 
- .content {
-   display: flex;
-   flex: wrap;
-   justify-content: flex-start;
- }
+.intro {
+  border-right: 0.1rem solid #4C220A;
+  align-self: flex-start;
+}
+
+.tags {
+  align-self: flex-start;
+}
+ 
+   
