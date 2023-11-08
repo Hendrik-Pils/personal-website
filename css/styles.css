@@ -2,19 +2,44 @@
     box-sizing: border-box;
  }
 
- h1 {
-    color: blueviolet;
+ img {
+   max-width: 100%;
+   height: auto;
  }
 
-nav > ul {
+ nav {
+   color: #EBB18F;	
+	background: #4C220A;
+ }
+
+ body {
+   color: #EBB18F;
+   font-family: Helvetica;
+    background: #AE6B43;
+ }
+
+ h1 {
+    color: black;
+ }
+
+ .navigation__menu {
     
     display: flex;
-}
+    justify-content: space-between;
+ }
 
  nav > ul > li {
     list-style: none;
  }
 
-#main > section {
-    display: flex;
-}
+ nav a {
+   text-decoration: none;
+ }
+
+ nav a:hover, nav a:active, nav a:focus {
+   color: black;
+ }
+
+ main {
+   border-top: 0.1rem solid #4C220A;    
+ } 
