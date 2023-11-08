@@ -2,10 +2,15 @@
     box-sizing: border-box;
  }
 
- figure {
+ .intro > figure {
    max-width: 100%;
    width: 200px;
  }
+
+ .links > figure {
+  max-width: 600px;
+  
+}
 
  figcaption {
   text-align: center;
@@ -50,17 +55,34 @@
  main {   
    display: flex;
    flex-wrap: wrap;
-   justify-content: space-between; 
-   align-content: space-around;   
+   justify-content:center;
+   align-content: space-around;
+   gap: 50px;   
  } 
+
+.break {
+  height: 0px;
+  width: 100%;
+} 
 
 .intro {
   border-right: 0.1rem solid #4C220A;
-  align-self: flex-start;
+  align-self: left;
 }
 
 .tags {
   align-self: flex-start;
+  
 }
- 
+
+.contact {
+  
+}
+
+.links {
+}
+
+.about {
+  align-self: center;
+}
    
