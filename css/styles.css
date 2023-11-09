@@ -92,9 +92,13 @@
 
 .about {
   align-self: center;
+  border-top: 0.1rem solid #4C220A;
+  border-bottom: 0.1rem solid #4C220A;
+  border-radius: 10px;
 }
 
 footer {
+  margin-top: 100px;
   color: #EBB18F;	
 	background: #4C220A;
   text-align: center;
