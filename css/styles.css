@@ -57,7 +57,7 @@
  main {   
    display: flex;
    flex-wrap: wrap;
-   justify-content:center;
+   justify-content: space-around;
    align-content: space-around;
    gap: 50px;   
  } 
@@ -72,17 +72,12 @@
   align-self: left;
 }
 
-.tags {
-  align-self: flex-start;
-  
-}
-
 .contact {
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .contact > h2 {
-  self-align: left;
+
 }
 
 
