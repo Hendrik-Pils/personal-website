@@ -68,7 +68,7 @@
 } 
 
 .intro {
-  border-right: 0.1rem solid #4C220A;
+  border-right: 0.2rem solid #4C220A;
   align-self: left;
 }
 
@@ -76,6 +76,9 @@
   height: 150px;
   display: inline-flex;
   align-items: center;
+  border-top: 0.1rem solid #4C220A;
+  border-bottom: 0.1rem solid #4C220A;
+  border-radius: 10px;
 }
 
 .contact > li {
