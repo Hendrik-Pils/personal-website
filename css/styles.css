@@ -73,13 +73,19 @@
 }
 
 .contact {
-  justify-content: space-between;
+  height: 150px;
+  display: inline-flex;
+  align-items: center;
 }
 
-.contact > h2 {
-
+.contact > li {
+  padding: 10px;  
+  list-style: none;
 }
 
+.contact > li > a {  
+  font-size: 2rem;
+}
 
 .about {
   align-self: center;
